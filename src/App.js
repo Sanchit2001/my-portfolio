@@ -23,8 +23,8 @@ function App() {
         <Route component={SinglePost} path='/post/:slug'/>
         <Route component={Post} path='/post'/>
         <Route component={Project} path='/project'/>
-        <Route component={Mycirtificate} path='/cirtificates/:slug'/>
-        <Route component={AllCirts} path='/cirtificates'/>
+        <Route component={Mycirtificate} path='/certificates/:slug'/>
+        <Route component={AllCirts} path='/certificates'/>
         
       </Switch>
     </BrowserRouter>
