@@ -21,12 +21,12 @@ const AllCirts = () => {
     return (
         <main className="bg-green-100 min-h-screen p-12">
             <section className="container mx-auto" >
-                <h1 className="text-5xl text-green-600 flex justify-center cursive">My Cirtifications</h1>
-                <h2 className="text-lg text-green-800 flex justify-center mb-12 pt-6 cursive" >These are all of my cirtificates</h2>
+                <h1 className="text-5xl text-green-600 flex justify-center cursive">My Certifications</h1>
+                <h2 className="text-lg text-green-800 flex justify-center mb-12 pt-6 cursive" >These are all of my certificates</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {cirtData && cirtData.map((cirt,index)=>(
                     <article>    
-                    <Link to={"/cirtificates/"+cirt.slug.current} key={cirt.slug.current}>
+                    <Link to={"/certificates/"+cirt.slug.current} key={cirt.slug.current}>
                     <span className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-200" key={index}>
                         <img src={cirt.mainImage.asset.url} alt={cirt.mainImage.alt}
                             className="w-full h-full rounded-r object-cover absolute"
