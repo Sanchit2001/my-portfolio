@@ -31,10 +31,10 @@ const NavBar = () => {
                     className="inflex-flex items-center py-3 px-3 my-6  text-green-600 hover:text-green-500 cursive tracking-widest">
                         About Me
                     </NavLink>
-                    <NavLink to="/cirtificates" 
+                    <NavLink to="/certificates" 
                     activeClassName="text-white"
                     className="inflex-flex items-center py-3 px-3 my-6  text-green-600 hover:text-green-500 cursive tracking-widest">
-                        My Cirtifications
+                       Certifications
                     </NavLink>
                 </nav>
                     <div className="inline-flex py-3 px-3 my-6">
